@@ -1,0 +1,28 @@
+<!-- login.component.html -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <img src="/assets/main.jpg" alt="" height="500" width="400">
+        </div>
+        <div class="col-md-4">
+            <h1 class="text-primary">Welcome to MANASHOP !</h1>
+            <form action="" (ngSubmit)="checkLogin()">
+                <div class="form-group">
+                    <label for="" class="form-label">username</label>
+                    <input type="text" class="form-control" name="username" [(ngModel)]="username" required="true">
+                </div>
+                <div class="form-group">
+                    <label for="" class="form-label">password</label>
+                    <input type="password" class="form-control" name="password" [(ngModel)]="password" required="true">
+                </div>
+                <br>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg" type="submit">Login</button>&nbsp;
+                    <button class="btn btn-danger btn-lg" type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
