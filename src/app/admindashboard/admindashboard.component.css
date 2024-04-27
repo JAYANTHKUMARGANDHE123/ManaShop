@@ -1,5 +1,7 @@
 /* admindashboard.component.css */
 
+@media only screen and (min-width:700px) {
+    
 
 .navbar{
     width: 250px;
@@ -18,4 +20,11 @@
 .nav-item{
     padding-top:10px;
     margin-left:20px;
+}
+}
+
+@media only screen and(max-width:500px){
+    .img{
+        display:none;
+    }
 }
